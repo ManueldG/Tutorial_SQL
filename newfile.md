@@ -42,56 +42,16 @@ cfu int NOT NULL)
 INSERT INTO ordini(Invoice,StockCode,Description,Quantity,InvoiceDate,Price,CustomerID,Country,InvoiceTime) 
 VALUES 
 ('489434','85048','15CM CHRISTMAS GLASS BALL 20 LIGHTS',12,str_to_date("12/01/2009","%d/%m/%Y"),6.95,13085,'United Kingdom','07:45'),
-('489434','79323P','PINK CHERRY LIGHTS',12,str_to_date("01/12/2009","%d/%m/%Y"),6.75,13085,'United Kingdom','07:45'),
-('489434','79323W',' WHITE CHERRY LIGHTS',12,str_to_date("01/12/2009","%d/%m/%Y"),6.75,13085,'United Kingdom','07:45'),
-('489434','22041','RECORD FRAME 7\" SINGLE SIZE ',48,str_to_date("01/12/2009","%d/%m/%Y"),2.1,13085,'United Kingdom','07:45'),
-('489434','21232','STRAWBERRY CERAMIC TRINKET BOX',24,str_to_date("01/12/2009","%d/%m/%Y"),1.25,13085,'United Kingdom','07:45'),
-('489434','22064','PINK DOUGHNUT TRINKET POT ',24,str_to_date("01/12/2009","%d/%m/%Y"),1.65,13085,'United Kingdom','07:45'),
 ('489440','21871','SAVE THE PLANET MUG',24,str_to_date("01/12/2009","%d/%m/%Y"),1.25,13085,'United Kingdom','09:45'),
 ('489440','21523','FANCY FONT HOME SWEET HOME DOORMAT',10,str_to_date("01/12/2009","%d/%m/%Y"),5.95,13085,'United Kingdom','09:45');
 
 INSERT INTO ordini(Invoice,StockCode,Description,Quantity,InvoiceDate,Price,CustomerID,Country,InvoiceTime) VALUES 
 ('491667','22196','SMALL HEART MEASURING SPOONS',1,str_to_date("10/12/2009","%d/%m/%Y"),0.85,15503,'Italy','10:20'),
-('491662','21733','RED HANGING HEART T-LIGHT HOLDER',1,str_to_date("10/12/2009","%d/%m/%Y"),2.95,15503,'France','11:45'),
-('491662','20697','LITTLE GREEN MONSTER SOFT TOY',1,str_to_date("13/12/2009","%d/%m/%Y"),2.55,15503,'United Kingdom','11:33'),
-('491662','20982','12 PENCILS TALL TUBE SKULLS',1,str_to_date("13/12/2009","%d/%m/%Y"),0.85,15503,'United Kingdom','11:33'),
-('491662','21544','SKULLS  WATER TRANSFER TATTOOS ',1,str_to_date("13/12/2009","%d/%m/%Y"),0.85,15503,'United Kingdom','11:33'),
-('491662','21723','ALPHABET HEARTS STICKER SHEET',1,str_to_date("13/12/2009","%d/%m/%Y"),0.85,15503,'United Kingdom','11:33'),
-('491666','17108D','FLOWER FAIRY SUMMER BOUQUET SACHET',48,str_to_date("13/12/2009","%d/%m/%Y"),0.42,13026,'United Kingdom','11:34'),
-('491666','35095B','RED VICTORIAN FABRIC OVAL BOX',24,str_to_date("13/12/2009","%d/%m/%Y"),0.42,13026,'France','11:34'),
-('491666','72789','BASKET/8 SCENTED LOVE TOKEN CANDLES',12,str_to_date("13/12/2009","%d/%m/%Y"),3.75,13026,'United Kingdom','11:34'),
-('491666','84937','KASHMIR FOLKART TUMBLERS',6,str_to_date("13/12/2009","%d/%m/%Y"),2.1,13026,'France','11:34'),
-('491666','17003','BROCADE RING PURSE ',36,str_to_date("13/12/2009","%d/%m/%Y"),0.21,13026,'United Kingdom','11:34'),
-('491666','21136','PAINTED METAL PEARS ASSORTED',8,str_to_date("13/12/2009","%d/%m/%Y"),1.69,13026,'USA','11:34'),
-('491666','22178','VICTORIAN GLASS HANGING T-LIGHT',12,str_to_date("13/12/2009","%d/%m/%Y"),1.25,13026,'United Kingdom','11:34'),
-('491666','85178','VICTORIAN SEWING KIT',12,str_to_date("13/12/2009","%d/%m/%Y"),1.25,13026,'United Kingdom','11:34'),
-('491666','85224','ASSORTED COLOUR SILK GLASSES CASE',12,'13/12/2009","%d/%m/%Y"),2.1,13026,'United Kingdom','11:34'),
-('491666','17090D','VANILLA INCENSE 40 CONES IN TIN',6,str_to_date("13/12/2009","%d/%m/%Y"),1.25,13026,'United Kingdom','11:34'),
-('491666','17090A','LAVENDER INCENSE 40 CONES IN TIN',6,str_to_date("13/12/2009","%d/%m/%Y"),1.25,13026,'United Kingdom','11:34'),
 ('491669','20829','GLITTER HANGING BUTTERFLY STRING',8,str_to_date("13/12/2009","%d/%m/%Y"),2.1,13026,'France','12:31'),
 ('491669','21114','LAVENDER SCENTED FABRIC HEART',10,str_to_date("13/12/2009","%d/%m/%Y"),1.25,13026,'United Kingdom','12:31');
 
 INSERT INTO ordini(Invoice,StockCode,Description,Quantity,InvoiceDate,Price,CustomerID,Country,InvoiceTime) VALUES 
 (491714,'85152','HAND OVER THE CHOCOLATE   SIGN ',2,'13/12/2009',2.1,16409,'United Kingdom','15:38'),
-(491714,'22117','METAL SIGN HER DINNER IS SERVED ',1,'13/12/2009',2.95,16409,'United Kingdom','15:38'),
-(491714,'82599','FANNY\'S REST STOPMETAL SIGN',1,'13/12/2009',2.1,16409,'United Kingdom','15:38'),
-(491714,'21175','GIN + TONIC DIET METAL SIGN',3,'13/12/2009',2.1,16409,'United Kingdom','15:38'),
-(491714,'82494L','WOODEN FRAME ANTIQUE WHITE ',1,'13/12/2009',2.95,16409,'United Kingdom','15:38'),
-(491714,'84596B','SMALL DOLLY MIX DESIGN ORANGE BOWL',1,'13/12/2009',1.25,16409,'United Kingdom','15:38'),
-(491714,'84596B','SMALL DOLLY MIX DESIGN ORANGE BOWL',1,'13/12/2009',1.25,16409,'United Kingdom','15:38'),
-(491714,'84596F','SMALL MARSHMALLOWS PINK BOWL',1,'13/12/2009',1.25,16409,'United Kingdom','15:38'),
-(491714,'84596F','SMALL MARSHMALLOWS PINK BOWL',1,'13/12/2009',1.25,16409,'United Kingdom','15:38'),
-(491714,'84596K','JELLY BABIES YELLOW SMALL BOWL',1,'13/12/2009',1.25,16409,'United Kingdom','15:38'),
-(491714,'84879','ASSORTED COLOUR BIRD ORNAMENT',8,'13/12/2009',1.69,16409,'United Kingdom','15:38'),
-(491714,'72756','FAIRY CAKE CANDLES',9,'13/12/2009',1.49,16409,'United Kingdom','15:38'),
-(491714,'84839','SWEETHEART KEY CABINET',1,'13/12/2009',6.75,16409,'United Kingdom','15:38'),
-(491714,'21976','PACK OF 60 MUSHROOM CAKE CASES',2,'13/12/2009',0.55,16409,'United Kingdom','15:38'),
-(491714,'21213','PACK OF 72 SKULL CAKE CASES',2,'13/12/2009',0.55,16409,'United Kingdom','15:38'),
-(491714,'84989A','75 GREEN FAIRY CAKE CASES',2,'13/12/2009',0.55,16409,'United Kingdom','15:38'),
-(491714,'21215',' IVORY PAPER CUP CAKE CASES ',2,'13/12/2009',0.55,16409,'United Kingdom','15:38'),
-(491714,'84991','60 TEATIME FAIRY CAKE CASES',2,'13/12/2009',0.55,16409,'United Kingdom','15:38'),
-(491714,'21975','PACK OF 60 DINOSAUR CAKE CASES',2,'13/12/2009',0.55,16409,'United Kingdom','15:38'),
-(491720,'84992','72 SWEETHEART FAIRY CAKE CASES',2,'13/01/2009',0.55,16409,'United Kingdom','15:42'),
 (491720,'21977','PACK OF 60 PINK PAISLEY CAKE CASES',2,'13/01/2010',0.55,16409,'United Kingdom','15:42'),
 (491720,'21212','PACK OF 72 RETRO SPOT CAKE CASES',2,'13/01/2010',0.55,16409,'United Kingdom','15:42')
          |
@@ -99,23 +59,6 @@ INSERT INTO ordini(Invoice,StockCode,Description,Quantity,InvoiceDate,Price,Cust
 corr
 INSERT INTO ordini(Invoice,StockCode,Description,Quantity,InvoiceDate,Price,CustomerID,Country,InvoiceTime) VALUES 
 (491714,'85152','HAND OVER THE CHOCOLATE   SIGN',2,str_to_date("13/12/2009","%d/%m/%Y"),2.1,16409,'United Kingdom','15:38'),
-(491714,'22117','METAL SIGN HER DINNER IS SERVED',1,str_to_date("13/12/2009","%d/%m/%Y"),2.95,16409,'United Kingdom','15:38'),
-(491714,'82599','FANNY\'S REST STOPMETAL SIGN',1,str_to_date("13/12/2009","%d/%m/%Y"),2.1,16409,'United Kingdom','15:38'),
-(491714,'21175','GIN + TONIC DIET METAL SIGN',3,str_to_date("13/12/2009","%d/%m/%Y"),2.1,16409,'United Kingdom','15:38'),
-(491714,'82494L','WOODEN FRAME ANTIQUE WHITE',1,str_to_date("13/12/2009","%d/%m/%Y"),2.95,16409,'United Kingdom','15:38'),
-(491714,'84596B','SMALL DOLLY MIX DESIGN ORANGE BOWL',1,str_to_date("13/12/2009","%d/%m/%Y"),1.25,16409,'United Kingdom','15:38'),
-(491714,'84596F','SMALL MARSHMALLOWS PINK BOWL',1,str_to_date("13/12/2009","%d/%m/%Y"),1.25,16409,'United Kingdom','15:38'),
-(491714,'84596K','JELLY BABIES YELLOW SMALL BOWL',1,str_to_date("13/12/2009","%d/%m/%Y"),1.25,16409,'United Kingdom','15:38'),
-(491714,'84879','ASSORTED COLOUR BIRD ORNAMENT',8,str_to_date("13/12/2009","%d/%m/%Y"),1.69,16409,'United Kingdom','15:38'),
-(491714,'72756','FAIRY CAKE CANDLES',9,str_to_date("13/12/2009","%d/%m/%Y"),1.49,16409,'United Kingdom','15:38'),
-(491714,'84839','SWEETHEART KEY CABINET',1,str_to_date("13/12/2009","%d/%m/%Y"),6.75,16409,'United Kingdom','15:38'),
-(491714,'21976','PACK OF 60 MUSHROOM CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:38'),
-(491714,'21213','PACK OF 72 SKULL CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:38'),
-(491714,'84989A','75 GREEN FAIRY CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:38'),
-(491714,'21215',' IVORY PAPER CUP CAKE CASES ',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:38'),
-(491714,'84991','60 TEATIME FAIRY CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:38'),
-(491714,'21975','PACK OF 60 DINOSAUR CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:38'),
-(491720,'84992','72 SWEETHEART FAIRY CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:42'),
 (491720,'21977','PACK OF 60 PINK PAISLEY CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:42'),
 (491720,'21212','PACK OF 72 RETRO SPOT CAKE CASES',2,str_to_date("13/12/2009","%d/%m/%Y"),0.55,16409,'United Kingdom','15:42')
 
@@ -315,9 +258,6 @@ esegui la query e verifichi se ottieni proprio quei 5 record come risultato.
 
 INSERT INTO ordini(Invoice,StockCode,Description,Quantity,InvoiceDate,Price,CustomerID,Country,InvoiceTime) VALUES 
 (509434,'85048','15CM CHRISTMAS GLASS BALL 20 LIGHTS',12,'03/04/2019',6.95,13085,'United Kingdom','11:05'),
-(509434,'79323P','PINK CHERRY LIGHTS',12,'03/04/2019',6.75,13085,'United Kingdom','11:45'),
-(509435,'79323W',' WHITE CHERRY LIGHTS',12,'03/04/2019',6.75,13085,'United Kingdom','11:45'),
-(509435,'22041','RECORD FRAME 7\" SINGLE SIZE ',48,'03/04/2019',2.1,13085,'United Kingdom','11:45'),
 (509435,'21232','STRAWBERRY CERAMIC TRINKET BOX',24,'03/04/2019',1.25,13085,'United Kingdom','11:45')
 
 ATTENZIONE: la query è unica ed è valida per tutti i giorni della vita. Questo significa che nella
